@@ -1,4 +1,4 @@
-x = raw_input("Enter a filename: ")
+x = raw_input("Enter a filename: ").strip("\r\n")
 biglist = []
 tmplist = []
 f = open(x, "r")
